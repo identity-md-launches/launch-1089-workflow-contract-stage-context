@@ -1,0 +1,17 @@
+{
+  "kind": "evm_project",
+  "token": {
+    "contract": "LaunchToken",
+    "name": "Swarm brain",
+    "symbol": "Brain",
+    "decimals": 18
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "fee": 3000,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "notes": "Token-only launch for Swarm brain (swarmbrain.fun). LaunchToken in src/LaunchToken.sol has no constructor arguments, privileged roles or initialization calls. The accepted implementation contains no application contracts or trading functionality. The factory supplies liquidity and protocol helpers. Policy, allocation and signed artifact linkage belong to launch services. The manifest pool fee and initial price are deployment inputs; effective opening price and trading fee are resolved by the applicable policy and network services."
+}
